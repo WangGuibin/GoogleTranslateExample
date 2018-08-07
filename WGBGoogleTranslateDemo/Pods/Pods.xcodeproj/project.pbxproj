@@ -1,0 +1,798 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		009AC9F5BC19FA353155B3ED1B6452C3 /* FSAudioController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DBB825DF110EFA47AAFC711E895C177 /* FSAudioController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		04D51C1660591814044B20043AD2F97E /* FSAudioController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6962E1A7F3EA44DCDE5C6DAED281C6D3 /* FSAudioController.m */; };
+		08433708C40E805D2B825C73EFB32911 /* FSCheckContentTypeRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EA957157BDD416BFAF3A24FD26C8AFC /* FSCheckContentTypeRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1165FF384DDBA2C22CA46062FB67242A /* FSPlaylistItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E497BB57AFC7CECFC18D371BB60005 /* FSPlaylistItem.m */; };
+		1E90A29478AEE7715FC6C84FF74AECCA /* Reachability-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D38B262331E79DF03257AA40A8E1337 /* Reachability-dummy.m */; };
+		290D5C89B74DD2F53C322F8598D6AB87 /* FSXMLHttpRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BD75A4C2E5AFF533044300FF141AEF3 /* FSXMLHttpRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2A7B565FF580106496A189500C69FB5A /* FSParsePlaylistRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = F97DE0A34465A595B87763798F651945 /* FSParsePlaylistRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		349CF8613889EF72AB81F0F5E8D9B7A2 /* FSParseRssPodcastFeedRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AB140CB1B3C24CB3E7D6471AC63CCB4 /* FSParseRssPodcastFeedRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		427A63EF5EA4055C95CDDC378734C825 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72DD0F183BCEF2E4CE5E7D6B81BE5DF1 /* SystemConfiguration.framework */; };
+		4852DCF5E43B6D743F1AAFC7072DD615 /* Pods-WGBGoogleTranslateDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA41C72CBF812AE95B0B084DE751730 /* Pods-WGBGoogleTranslateDemo-dummy.m */; };
+		4C7270343E792C27ADE6D2E00C083AE1 /* FSXMLHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8926CFD9182EDCC64613D7AFD31580 /* FSXMLHttpRequest.m */; };
+		4F7041B970299EEAF5E8B35503877129 /* id3_parser.h in Headers */ = {isa = PBXBuildFile; fileRef = 59AB8A54BA2557534FF2A6DDAD2E6C75 /* id3_parser.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5628B18EE4138271BC21BB6576AB135D /* stream_configuration.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AA3754056D144147979837E22B9D05C /* stream_configuration.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		59B91F875798B69117BA71B6522965C7 /* http_stream.h in Headers */ = {isa = PBXBuildFile; fileRef = 37603BB73E1A1B0CB70CD590074E1869 /* http_stream.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5EB78E0DB78FFD416E84751C4247D2C5 /* caching_stream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD7F89AB533CE43BEB7EEE3D13CEC909 /* caching_stream.cpp */; };
+		5F5825503233ED021C2668EFD1206D3C /* audio_queue.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F2675D38F89AD2C6FB6F0444890E45C /* audio_queue.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5FF4C302DBAF52ECA5CC5E00F05E28A6 /* id3_parser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A99CE06C989B1529001E4FA68943AA4 /* id3_parser.cpp */; };
+		605381C9B04AE391540658CFBE3097E8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D564C5B96C26E13B06EBDFDA6F4980BD /* AVFoundation.framework */; };
+		65B48B80B7F1E9A90E4DD452724FD75B /* input_stream.h in Headers */ = {isa = PBXBuildFile; fileRef = EF945680F40BCD8E70ECDBBF5123BBC7 /* input_stream.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		66DD70EA0614BF81B9879AC48DD7883A /* FSParseRssPodcastFeedRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 62916DE8D77EF4C2421A7D71CBB10990 /* FSParseRssPodcastFeedRequest.m */; };
+		6A303F81D593BB5598ED488D308A2528 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 569400B23841DDD30E498BE0B421BC30 /* AudioToolbox.framework */; };
+		841AB9A78AC896C67AAB603F4551EB47 /* FreeStreamer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF34E7CC297F1D12149D0E29AE9666B /* FreeStreamer-dummy.m */; };
+		862E74C1B2A3BDDA40330AF3684FA33B /* stream_configuration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B098A79E5F0DA97F9586DAC54C28B5F9 /* stream_configuration.cpp */; };
+		8649FD0319C8440EC744630F2AB6F3FE /* audio_stream.h in Headers */ = {isa = PBXBuildFile; fileRef = 444E3D19F0CCB4C6F57F312AA720C00E /* audio_stream.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		86BA352C39943D5DAA38903021D77574 /* file_stream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 025EB47D70BB5AD98E0118813A92BF5C /* file_stream.cpp */; };
+		A11168E5A07A88CC6391F44CEA20F907 /* input_stream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6A3FD07DFAF22FC2E0191FB40389D8E /* input_stream.cpp */; };
+		A595BED3E4F75D8E47B04553AEEC7B76 /* http_stream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A42A5EB810E6967B52B198CEEA511C2 /* http_stream.cpp */; };
+		AA36CE3AFDE5B7A889B8233202B9892B /* FSPlaylistItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 55C697893185A68BB58138E834B5AA32 /* FSPlaylistItem.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AD60F77B12842103F8216C498675B368 /* caching_stream.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A5E3E869D24A6F4A87895F57C22B96B /* caching_stream.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B15F3D23FD86FE5F343FA4A7AAFF4F5F /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 782319ECB683220E55F00343DBC1EF20 /* Reachability.m */; };
+		B51954AD5BC9E8473D0E9580022D904B /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B514FD5C539D0C30D4CE4AF14BA41CAD /* MediaPlayer.framework */; };
+		B88E51F0287CD565645420E83AAE4901 /* FSAudioStream.h in Headers */ = {isa = PBXBuildFile; fileRef = D797DB18263744A757712AE1C03B20D0 /* FSAudioStream.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C76EAC7FA422F8281CB4A6188BF0826B /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = BA0AB5B6C7DCD05DECD0A217A441F146 /* Reachability.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CF295909A2C924F91B5E3B178012B997 /* FSParsePlaylistRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F16476894C2B26EA488173771E7F80 /* FSParsePlaylistRequest.m */; };
+		D6934BA0986EA1053AE93BFBA37A715E /* FSAudioStream.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9EA582B0622215AD63FCA0BC523C8522 /* FSAudioStream.mm */; };
+		D9F1F3F2EE092C7773C0CD5C840EE8BF /* file_output.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A5D25ACF09E9F814073874C23960B1C /* file_output.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DF8A1C2222A68F61F71162062004B47C /* file_output.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 090B3A1F7E168ECB2D4C110B03B84D70 /* file_output.cpp */; };
+		DFE186CE99CFB31AAF68A4F202CF996B /* FSCheckContentTypeRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = AA88CBB13335A82200638ED06911DFE8 /* FSCheckContentTypeRequest.m */; };
+		E30334A7D1FA935E91038B5BAC72BE28 /* file_stream.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F7ACC44E46E7C66168EFB9718154091 /* file_stream.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E9400C413CA91680C957C32648D5E927 /* audio_queue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2C48BF3234396E64C7533EF5391206B6 /* audio_queue.cpp */; };
+		E9FDE2367A22B701CDFE4B015F9C7838 /* audio_stream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C22B680FFD0DA52B67DD4046E448089 /* audio_stream.cpp */; };
+		F8C359B415B030BFD6E57A53EA02EF78 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC828C12578DBD176198DF74C00A9CD6 /* CFNetwork.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A158A26C84605AD048C469A74B4DB7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37EBE402104AFE573C7B2160A20F911B;
+			remoteInfo = Reachability;
+		};
+		A5655BF874ADCDA6EB024BFC8FFA0952 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCEE361CDB9092A7EBCC7926F54B67EC;
+			remoteInfo = FreeStreamer;
+		};
+		D253B42D2448CAE17CE7B41654F89136 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37EBE402104AFE573C7B2160A20F911B;
+			remoteInfo = Reachability;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		025EB47D70BB5AD98E0118813A92BF5C /* file_stream.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = file_stream.cpp; path = FreeStreamer/FreeStreamer/file_stream.cpp; sourceTree = "<group>"; };
+		0437CFC9B3991F0745D663AEFE5AE170 /* Reachability-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Reachability-prefix.pch"; sourceTree = "<group>"; };
+		04F16476894C2B26EA488173771E7F80 /* FSParsePlaylistRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSParsePlaylistRequest.m; path = FreeStreamer/FreeStreamer/FSParsePlaylistRequest.m; sourceTree = "<group>"; };
+		090B3A1F7E168ECB2D4C110B03B84D70 /* file_output.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = file_output.cpp; path = FreeStreamer/FreeStreamer/file_output.cpp; sourceTree = "<group>"; };
+		0D8926CFD9182EDCC64613D7AFD31580 /* FSXMLHttpRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSXMLHttpRequest.m; path = FreeStreamer/FreeStreamer/FSXMLHttpRequest.m; sourceTree = "<group>"; };
+		0F21544948CAE1CA7B28ED733B0F6C0B /* libPods-WGBGoogleTranslateDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-WGBGoogleTranslateDemo.a"; path = "libPods-WGBGoogleTranslateDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		10EAE5E92896974A1CDC01AC145767BC /* FreeStreamer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FreeStreamer-prefix.pch"; sourceTree = "<group>"; };
+		12997C98FE667C40F9425AC89D5BCFA8 /* Pods-WGBGoogleTranslateDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WGBGoogleTranslateDemo-frameworks.sh"; sourceTree = "<group>"; };
+		1A42A5EB810E6967B52B198CEEA511C2 /* http_stream.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = http_stream.cpp; path = FreeStreamer/FreeStreamer/http_stream.cpp; sourceTree = "<group>"; };
+		1DBB825DF110EFA47AAFC711E895C177 /* FSAudioController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSAudioController.h; path = FreeStreamer/FreeStreamer/FSAudioController.h; sourceTree = "<group>"; };
+		2A99CE06C989B1529001E4FA68943AA4 /* id3_parser.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = id3_parser.cpp; path = FreeStreamer/FreeStreamer/id3_parser.cpp; sourceTree = "<group>"; };
+		2C48BF3234396E64C7533EF5391206B6 /* audio_queue.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = audio_queue.cpp; path = FreeStreamer/FreeStreamer/audio_queue.cpp; sourceTree = "<group>"; };
+		2FF34E7CC297F1D12149D0E29AE9666B /* FreeStreamer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FreeStreamer-dummy.m"; sourceTree = "<group>"; };
+		37603BB73E1A1B0CB70CD590074E1869 /* http_stream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = http_stream.h; path = FreeStreamer/FreeStreamer/http_stream.h; sourceTree = "<group>"; };
+		3A5D25ACF09E9F814073874C23960B1C /* file_output.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = file_output.h; path = FreeStreamer/FreeStreamer/file_output.h; sourceTree = "<group>"; };
+		444E3D19F0CCB4C6F57F312AA720C00E /* audio_stream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = audio_stream.h; path = FreeStreamer/FreeStreamer/audio_stream.h; sourceTree = "<group>"; };
+		55C697893185A68BB58138E834B5AA32 /* FSPlaylistItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSPlaylistItem.h; path = FreeStreamer/FreeStreamer/FSPlaylistItem.h; sourceTree = "<group>"; };
+		569400B23841DDD30E498BE0B421BC30 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		59AB8A54BA2557534FF2A6DDAD2E6C75 /* id3_parser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = id3_parser.h; path = FreeStreamer/FreeStreamer/id3_parser.h; sourceTree = "<group>"; };
+		5EA957157BDD416BFAF3A24FD26C8AFC /* FSCheckContentTypeRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCheckContentTypeRequest.h; path = FreeStreamer/FreeStreamer/FSCheckContentTypeRequest.h; sourceTree = "<group>"; };
+		5F2675D38F89AD2C6FB6F0444890E45C /* audio_queue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = audio_queue.h; path = FreeStreamer/FreeStreamer/audio_queue.h; sourceTree = "<group>"; };
+		62916DE8D77EF4C2421A7D71CBB10990 /* FSParseRssPodcastFeedRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSParseRssPodcastFeedRequest.m; path = FreeStreamer/FreeStreamer/FSParseRssPodcastFeedRequest.m; sourceTree = "<group>"; };
+		65C5997DB5847E9A90D3C09621FB1925 /* Reachability.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Reachability.xcconfig; sourceTree = "<group>"; };
+		6962E1A7F3EA44DCDE5C6DAED281C6D3 /* FSAudioController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSAudioController.m; path = FreeStreamer/FreeStreamer/FSAudioController.m; sourceTree = "<group>"; };
+		6D38B262331E79DF03257AA40A8E1337 /* Reachability-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Reachability-dummy.m"; sourceTree = "<group>"; };
+		72DD0F183BCEF2E4CE5E7D6B81BE5DF1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		782319ECB683220E55F00343DBC1EF20 /* Reachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		7AA3754056D144147979837E22B9D05C /* stream_configuration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stream_configuration.h; path = FreeStreamer/FreeStreamer/stream_configuration.h; sourceTree = "<group>"; };
+		7BD75A4C2E5AFF533044300FF141AEF3 /* FSXMLHttpRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSXMLHttpRequest.h; path = FreeStreamer/FreeStreamer/FSXMLHttpRequest.h; sourceTree = "<group>"; };
+		7F7ACC44E46E7C66168EFB9718154091 /* file_stream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = file_stream.h; path = FreeStreamer/FreeStreamer/file_stream.h; sourceTree = "<group>"; };
+		8C22B680FFD0DA52B67DD4046E448089 /* audio_stream.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = audio_stream.cpp; path = FreeStreamer/FreeStreamer/audio_stream.cpp; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97C7B57B8176CFEBE4EE5579B978D89E /* libReachability.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libReachability.a; path = libReachability.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A5E3E869D24A6F4A87895F57C22B96B /* caching_stream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = caching_stream.h; path = FreeStreamer/FreeStreamer/caching_stream.h; sourceTree = "<group>"; };
+		9AB140CB1B3C24CB3E7D6471AC63CCB4 /* FSParseRssPodcastFeedRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSParseRssPodcastFeedRequest.h; path = FreeStreamer/FreeStreamer/FSParseRssPodcastFeedRequest.h; sourceTree = "<group>"; };
+		9EA582B0622215AD63FCA0BC523C8522 /* FSAudioStream.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = FSAudioStream.mm; path = FreeStreamer/FreeStreamer/FSAudioStream.mm; sourceTree = "<group>"; };
+		A0D50041A0ABA956AF52C63A56B3034C /* Pods-WGBGoogleTranslateDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WGBGoogleTranslateDemo.release.xcconfig"; sourceTree = "<group>"; };
+		A2D5FB87BE5F116EC1937C5F626B068F /* Pods-WGBGoogleTranslateDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WGBGoogleTranslateDemo-resources.sh"; sourceTree = "<group>"; };
+		A6111F0F09052489757D52757DE000DC /* Pods-WGBGoogleTranslateDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WGBGoogleTranslateDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A7E497BB57AFC7CECFC18D371BB60005 /* FSPlaylistItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSPlaylistItem.m; path = FreeStreamer/FreeStreamer/FSPlaylistItem.m; sourceTree = "<group>"; };
+		AA88CBB13335A82200638ED06911DFE8 /* FSCheckContentTypeRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCheckContentTypeRequest.m; path = FreeStreamer/FreeStreamer/FSCheckContentTypeRequest.m; sourceTree = "<group>"; };
+		B098A79E5F0DA97F9586DAC54C28B5F9 /* stream_configuration.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = stream_configuration.cpp; path = FreeStreamer/FreeStreamer/stream_configuration.cpp; sourceTree = "<group>"; };
+		B514FD5C539D0C30D4CE4AF14BA41CAD /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/MediaPlayer.framework; sourceTree = DEVELOPER_DIR; };
+		BA0AB5B6C7DCD05DECD0A217A441F146 /* Reachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		BB7BC7F33521E7C2904A852CCB51D8AB /* Pods-WGBGoogleTranslateDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WGBGoogleTranslateDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		BC828C12578DBD176198DF74C00A9CD6 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		CD7F89AB533CE43BEB7EEE3D13CEC909 /* caching_stream.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = caching_stream.cpp; path = FreeStreamer/FreeStreamer/caching_stream.cpp; sourceTree = "<group>"; };
+		CFA41C72CBF812AE95B0B084DE751730 /* Pods-WGBGoogleTranslateDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WGBGoogleTranslateDemo-dummy.m"; sourceTree = "<group>"; };
+		D324FC81A806642AACA887BF704EA265 /* libFreeStreamer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libFreeStreamer.a; path = libFreeStreamer.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D564C5B96C26E13B06EBDFDA6F4980BD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		D797DB18263744A757712AE1C03B20D0 /* FSAudioStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSAudioStream.h; path = FreeStreamer/FreeStreamer/FSAudioStream.h; sourceTree = "<group>"; };
+		DE4CA7E4DDE7ADFA03722840CAD130C8 /* FreeStreamer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FreeStreamer.xcconfig; sourceTree = "<group>"; };
+		E53B159234E760AA75B443A87A97DB7C /* Pods-WGBGoogleTranslateDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WGBGoogleTranslateDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		EF945680F40BCD8E70ECDBBF5123BBC7 /* input_stream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = input_stream.h; path = FreeStreamer/FreeStreamer/input_stream.h; sourceTree = "<group>"; };
+		F6A3FD07DFAF22FC2E0191FB40389D8E /* input_stream.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = input_stream.cpp; path = FreeStreamer/FreeStreamer/input_stream.cpp; sourceTree = "<group>"; };
+		F97DE0A34465A595B87763798F651945 /* FSParsePlaylistRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSParsePlaylistRequest.h; path = FreeStreamer/FreeStreamer/FSParsePlaylistRequest.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E368EE2A9BD43C67133C44FC2ECB11A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				427A63EF5EA4055C95CDDC378734C825 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8CBA43EDD02F7D35797DC237A67ECBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7B4882FBD89BC52E717BA5A28EF702B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A303F81D593BB5598ED488D308A2528 /* AudioToolbox.framework in Frameworks */,
+				605381C9B04AE391540658CFBE3097E8 /* AVFoundation.framework in Frameworks */,
+				F8C359B415B030BFD6E57A53EA02EF78 /* CFNetwork.framework in Frameworks */,
+				B51954AD5BC9E8473D0E9580022D904B /* MediaPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1659DD6040F03F1452B080D373FB58CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D324FC81A806642AACA887BF704EA265 /* libFreeStreamer.a */,
+				0F21544948CAE1CA7B28ED733B0F6C0B /* libPods-WGBGoogleTranslateDemo.a */,
+				97C7B57B8176CFEBE4EE5579B978D89E /* libReachability.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20B56609144CE204DFA8221F742B2D76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9B2D786605F3C21736CA375DE744F9B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		41B5CA0F253D7BD74C887373D0744EF0 /* Pods-WGBGoogleTranslateDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A6111F0F09052489757D52757DE000DC /* Pods-WGBGoogleTranslateDemo-acknowledgements.markdown */,
+				E53B159234E760AA75B443A87A97DB7C /* Pods-WGBGoogleTranslateDemo-acknowledgements.plist */,
+				CFA41C72CBF812AE95B0B084DE751730 /* Pods-WGBGoogleTranslateDemo-dummy.m */,
+				12997C98FE667C40F9425AC89D5BCFA8 /* Pods-WGBGoogleTranslateDemo-frameworks.sh */,
+				A2D5FB87BE5F116EC1937C5F626B068F /* Pods-WGBGoogleTranslateDemo-resources.sh */,
+				BB7BC7F33521E7C2904A852CCB51D8AB /* Pods-WGBGoogleTranslateDemo.debug.xcconfig */,
+				A0D50041A0ABA956AF52C63A56B3034C /* Pods-WGBGoogleTranslateDemo.release.xcconfig */,
+			);
+			name = "Pods-WGBGoogleTranslateDemo";
+			path = "Target Support Files/Pods-WGBGoogleTranslateDemo";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				20B56609144CE204DFA8221F742B2D76 /* Frameworks */,
+				CD5D98401F92066A0963180A170FEF46 /* Pods */,
+				1659DD6040F03F1452B080D373FB58CF /* Products */,
+				D9742D61F7DD6F46E28D742593390A1A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A9B2D786605F3C21736CA375DE744F9B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				569400B23841DDD30E498BE0B421BC30 /* AudioToolbox.framework */,
+				D564C5B96C26E13B06EBDFDA6F4980BD /* AVFoundation.framework */,
+				BC828C12578DBD176198DF74C00A9CD6 /* CFNetwork.framework */,
+				B514FD5C539D0C30D4CE4AF14BA41CAD /* MediaPlayer.framework */,
+				72DD0F183BCEF2E4CE5E7D6B81BE5DF1 /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B367AB9F9A2CFE7581E60BA36E466EC4 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				BA0AB5B6C7DCD05DECD0A217A441F146 /* Reachability.h */,
+				782319ECB683220E55F00343DBC1EF20 /* Reachability.m */,
+				BF8E1ADE41AFE39182D5393E33EDEB09 /* Support Files */,
+			);
+			name = Reachability;
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		BF8E1ADE41AFE39182D5393E33EDEB09 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				65C5997DB5847E9A90D3C09621FB1925 /* Reachability.xcconfig */,
+				6D38B262331E79DF03257AA40A8E1337 /* Reachability-dummy.m */,
+				0437CFC9B3991F0745D663AEFE5AE170 /* Reachability-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Reachability";
+			sourceTree = "<group>";
+		};
+		CD5D98401F92066A0963180A170FEF46 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE0AF88BAF3122B20FC91A6519DDFCF4 /* FreeStreamer */,
+				B367AB9F9A2CFE7581E60BA36E466EC4 /* Reachability */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D9742D61F7DD6F46E28D742593390A1A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				41B5CA0F253D7BD74C887373D0744EF0 /* Pods-WGBGoogleTranslateDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E4ECF806320B782E2A1B723ACF592F9E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE4CA7E4DDE7ADFA03722840CAD130C8 /* FreeStreamer.xcconfig */,
+				2FF34E7CC297F1D12149D0E29AE9666B /* FreeStreamer-dummy.m */,
+				10EAE5E92896974A1CDC01AC145767BC /* FreeStreamer-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FreeStreamer";
+			sourceTree = "<group>";
+		};
+		EE0AF88BAF3122B20FC91A6519DDFCF4 /* FreeStreamer */ = {
+			isa = PBXGroup;
+			children = (
+				2C48BF3234396E64C7533EF5391206B6 /* audio_queue.cpp */,
+				5F2675D38F89AD2C6FB6F0444890E45C /* audio_queue.h */,
+				8C22B680FFD0DA52B67DD4046E448089 /* audio_stream.cpp */,
+				444E3D19F0CCB4C6F57F312AA720C00E /* audio_stream.h */,
+				CD7F89AB533CE43BEB7EEE3D13CEC909 /* caching_stream.cpp */,
+				9A5E3E869D24A6F4A87895F57C22B96B /* caching_stream.h */,
+				090B3A1F7E168ECB2D4C110B03B84D70 /* file_output.cpp */,
+				3A5D25ACF09E9F814073874C23960B1C /* file_output.h */,
+				025EB47D70BB5AD98E0118813A92BF5C /* file_stream.cpp */,
+				7F7ACC44E46E7C66168EFB9718154091 /* file_stream.h */,
+				1DBB825DF110EFA47AAFC711E895C177 /* FSAudioController.h */,
+				6962E1A7F3EA44DCDE5C6DAED281C6D3 /* FSAudioController.m */,
+				D797DB18263744A757712AE1C03B20D0 /* FSAudioStream.h */,
+				9EA582B0622215AD63FCA0BC523C8522 /* FSAudioStream.mm */,
+				5EA957157BDD416BFAF3A24FD26C8AFC /* FSCheckContentTypeRequest.h */,
+				AA88CBB13335A82200638ED06911DFE8 /* FSCheckContentTypeRequest.m */,
+				F97DE0A34465A595B87763798F651945 /* FSParsePlaylistRequest.h */,
+				04F16476894C2B26EA488173771E7F80 /* FSParsePlaylistRequest.m */,
+				9AB140CB1B3C24CB3E7D6471AC63CCB4 /* FSParseRssPodcastFeedRequest.h */,
+				62916DE8D77EF4C2421A7D71CBB10990 /* FSParseRssPodcastFeedRequest.m */,
+				55C697893185A68BB58138E834B5AA32 /* FSPlaylistItem.h */,
+				A7E497BB57AFC7CECFC18D371BB60005 /* FSPlaylistItem.m */,
+				7BD75A4C2E5AFF533044300FF141AEF3 /* FSXMLHttpRequest.h */,
+				0D8926CFD9182EDCC64613D7AFD31580 /* FSXMLHttpRequest.m */,
+				1A42A5EB810E6967B52B198CEEA511C2 /* http_stream.cpp */,
+				37603BB73E1A1B0CB70CD590074E1869 /* http_stream.h */,
+				2A99CE06C989B1529001E4FA68943AA4 /* id3_parser.cpp */,
+				59AB8A54BA2557534FF2A6DDAD2E6C75 /* id3_parser.h */,
+				F6A3FD07DFAF22FC2E0191FB40389D8E /* input_stream.cpp */,
+				EF945680F40BCD8E70ECDBBF5123BBC7 /* input_stream.h */,
+				B098A79E5F0DA97F9586DAC54C28B5F9 /* stream_configuration.cpp */,
+				7AA3754056D144147979837E22B9D05C /* stream_configuration.h */,
+				E4ECF806320B782E2A1B723ACF592F9E /* Support Files */,
+			);
+			name = FreeStreamer;
+			path = FreeStreamer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		14DDB7157501951704EF7F0B4528D1F8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C76EAC7FA422F8281CB4A6188BF0826B /* Reachability.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4D013B7A14A95B4A3F47E0AB512EB8F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F5825503233ED021C2668EFD1206D3C /* audio_queue.h in Headers */,
+				8649FD0319C8440EC744630F2AB6F3FE /* audio_stream.h in Headers */,
+				AD60F77B12842103F8216C498675B368 /* caching_stream.h in Headers */,
+				D9F1F3F2EE092C7773C0CD5C840EE8BF /* file_output.h in Headers */,
+				E30334A7D1FA935E91038B5BAC72BE28 /* file_stream.h in Headers */,
+				009AC9F5BC19FA353155B3ED1B6452C3 /* FSAudioController.h in Headers */,
+				B88E51F0287CD565645420E83AAE4901 /* FSAudioStream.h in Headers */,
+				08433708C40E805D2B825C73EFB32911 /* FSCheckContentTypeRequest.h in Headers */,
+				2A7B565FF580106496A189500C69FB5A /* FSParsePlaylistRequest.h in Headers */,
+				349CF8613889EF72AB81F0F5E8D9B7A2 /* FSParseRssPodcastFeedRequest.h in Headers */,
+				AA36CE3AFDE5B7A889B8233202B9892B /* FSPlaylistItem.h in Headers */,
+				290D5C89B74DD2F53C322F8598D6AB87 /* FSXMLHttpRequest.h in Headers */,
+				59B91F875798B69117BA71B6522965C7 /* http_stream.h in Headers */,
+				4F7041B970299EEAF5E8B35503877129 /* id3_parser.h in Headers */,
+				65B48B80B7F1E9A90E4DD452724FD75B /* input_stream.h in Headers */,
+				5628B18EE4138271BC21BB6576AB135D /* stream_configuration.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		37EBE402104AFE573C7B2160A20F911B /* Reachability */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F15D04C3F2D0266CD0D6BA83E35F546 /* Build configuration list for PBXNativeTarget "Reachability" */;
+			buildPhases = (
+				92700504C8D9ACA197D08B0C320B23B9 /* Sources */,
+				6E368EE2A9BD43C67133C44FC2ECB11A /* Frameworks */,
+				14DDB7157501951704EF7F0B4528D1F8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Reachability;
+			productName = Reachability;
+			productReference = 97C7B57B8176CFEBE4EE5579B978D89E /* libReachability.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BC2616E755506BFF79EC15071DCA65C2 /* Pods-WGBGoogleTranslateDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33976F976383206A8FB0914EA6D730E8 /* Build configuration list for PBXNativeTarget "Pods-WGBGoogleTranslateDemo" */;
+			buildPhases = (
+				9BB848498B21129F47112BD42D334566 /* Sources */,
+				A8CBA43EDD02F7D35797DC237A67ECBC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EED6B56B44BA63E63EE6B68C68E8A0C2 /* PBXTargetDependency */,
+				185EE28A6082C0A10DCC4A7AF012EC2C /* PBXTargetDependency */,
+			);
+			name = "Pods-WGBGoogleTranslateDemo";
+			productName = "Pods-WGBGoogleTranslateDemo";
+			productReference = 0F21544948CAE1CA7B28ED733B0F6C0B /* libPods-WGBGoogleTranslateDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FCEE361CDB9092A7EBCC7926F54B67EC /* FreeStreamer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BBD36CBCED47A9ACB145FC155AA3EBC /* Build configuration list for PBXNativeTarget "FreeStreamer" */;
+			buildPhases = (
+				ACA031391A7EF93A67AA9EA21FF8A450 /* Sources */,
+				F7B4882FBD89BC52E717BA5A28EF702B /* Frameworks */,
+				D4D013B7A14A95B4A3F47E0AB512EB8F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8229A7B1BFB9EB8B92020179C4C78E5D /* PBXTargetDependency */,
+			);
+			name = FreeStreamer;
+			productName = FreeStreamer;
+			productReference = D324FC81A806642AACA887BF704EA265 /* libFreeStreamer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1659DD6040F03F1452B080D373FB58CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCEE361CDB9092A7EBCC7926F54B67EC /* FreeStreamer */,
+				BC2616E755506BFF79EC15071DCA65C2 /* Pods-WGBGoogleTranslateDemo */,
+				37EBE402104AFE573C7B2160A20F911B /* Reachability */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92700504C8D9ACA197D08B0C320B23B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E90A29478AEE7715FC6C84FF74AECCA /* Reachability-dummy.m in Sources */,
+				B15F3D23FD86FE5F343FA4A7AAFF4F5F /* Reachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BB848498B21129F47112BD42D334566 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4852DCF5E43B6D743F1AAFC7072DD615 /* Pods-WGBGoogleTranslateDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACA031391A7EF93A67AA9EA21FF8A450 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9400C413CA91680C957C32648D5E927 /* audio_queue.cpp in Sources */,
+				E9FDE2367A22B701CDFE4B015F9C7838 /* audio_stream.cpp in Sources */,
+				5EB78E0DB78FFD416E84751C4247D2C5 /* caching_stream.cpp in Sources */,
+				DF8A1C2222A68F61F71162062004B47C /* file_output.cpp in Sources */,
+				86BA352C39943D5DAA38903021D77574 /* file_stream.cpp in Sources */,
+				841AB9A78AC896C67AAB603F4551EB47 /* FreeStreamer-dummy.m in Sources */,
+				04D51C1660591814044B20043AD2F97E /* FSAudioController.m in Sources */,
+				D6934BA0986EA1053AE93BFBA37A715E /* FSAudioStream.mm in Sources */,
+				DFE186CE99CFB31AAF68A4F202CF996B /* FSCheckContentTypeRequest.m in Sources */,
+				CF295909A2C924F91B5E3B178012B997 /* FSParsePlaylistRequest.m in Sources */,
+				66DD70EA0614BF81B9879AC48DD7883A /* FSParseRssPodcastFeedRequest.m in Sources */,
+				1165FF384DDBA2C22CA46062FB67242A /* FSPlaylistItem.m in Sources */,
+				4C7270343E792C27ADE6D2E00C083AE1 /* FSXMLHttpRequest.m in Sources */,
+				A595BED3E4F75D8E47B04553AEEC7B76 /* http_stream.cpp in Sources */,
+				5FF4C302DBAF52ECA5CC5E00F05E28A6 /* id3_parser.cpp in Sources */,
+				A11168E5A07A88CC6391F44CEA20F907 /* input_stream.cpp in Sources */,
+				862E74C1B2A3BDDA40330AF3684FA33B /* stream_configuration.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		185EE28A6082C0A10DCC4A7AF012EC2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Reachability;
+			target = 37EBE402104AFE573C7B2160A20F911B /* Reachability */;
+			targetProxy = 0A158A26C84605AD048C469A74B4DB7C /* PBXContainerItemProxy */;
+		};
+		8229A7B1BFB9EB8B92020179C4C78E5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Reachability;
+			target = 37EBE402104AFE573C7B2160A20F911B /* Reachability */;
+			targetProxy = D253B42D2448CAE17CE7B41654F89136 /* PBXContainerItemProxy */;
+		};
+		EED6B56B44BA63E63EE6B68C68E8A0C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FreeStreamer;
+			target = FCEE361CDB9092A7EBCC7926F54B67EC /* FreeStreamer */;
+			targetProxy = A5655BF874ADCDA6EB024BFC8FFA0952 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0FBF5E7B3E2A24B21D6324CEED7BD335 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE4CA7E4DDE7ADFA03722840CAD130C8 /* FreeStreamer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/FreeStreamer/FreeStreamer-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = FreeStreamer;
+				PRODUCT_NAME = FreeStreamer;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12567D9363468A62CFA00CFF4C139A3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65C5997DB5847E9A90D3C09621FB1925 /* Reachability.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Reachability/Reachability-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Reachability;
+				PRODUCT_NAME = Reachability;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		224412CE5608E20652E2D2421D501AA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0D50041A0ABA956AF52C63A56B3034C /* Pods-WGBGoogleTranslateDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34B33A9A64C15CB6B4AEAAD56C90D11D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65C5997DB5847E9A90D3C09621FB1925 /* Reachability.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Reachability/Reachability-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Reachability;
+				PRODUCT_NAME = Reachability;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4EB2771B9E9D55D255329427010FA46A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE4CA7E4DDE7ADFA03722840CAD130C8 /* FreeStreamer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/FreeStreamer/FreeStreamer-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = FreeStreamer;
+				PRODUCT_NAME = FreeStreamer;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5FF77F01596F15EB617C8A1D74A7F718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB7BC7F33521E7C2904A852CCB51D8AB /* Pods-WGBGoogleTranslateDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33976F976383206A8FB0914EA6D730E8 /* Build configuration list for PBXNativeTarget "Pods-WGBGoogleTranslateDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FF77F01596F15EB617C8A1D74A7F718 /* Debug */,
+				224412CE5608E20652E2D2421D501AA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BBD36CBCED47A9ACB145FC155AA3EBC /* Build configuration list for PBXNativeTarget "FreeStreamer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EB2771B9E9D55D255329427010FA46A /* Debug */,
+				0FBF5E7B3E2A24B21D6324CEED7BD335 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F15D04C3F2D0266CD0D6BA83E35F546 /* Build configuration list for PBXNativeTarget "Reachability" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34B33A9A64C15CB6B4AEAAD56C90D11D /* Debug */,
+				12567D9363468A62CFA00CFF4C139A3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

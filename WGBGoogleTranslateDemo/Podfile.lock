@@ -1,0 +1,20 @@
+PODS:
+  - FreeStreamer (3.8.3):
+    - Reachability (~> 3.0)
+  - Reachability (3.2)
+
+DEPENDENCIES:
+  - FreeStreamer
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FreeStreamer
+    - Reachability
+
+SPEC CHECKSUMS:
+  FreeStreamer: b205b0bf6a2e7855f935369145498f930eb27cac
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+
+PODFILE CHECKSUM: 65f73a2e75edd86cf2da194008c7ea022adfabd9
+
+COCOAPODS: 1.5.3

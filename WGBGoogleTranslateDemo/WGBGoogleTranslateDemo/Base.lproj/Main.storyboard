@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qdk-r3-oJe">
+                                <rect key="frame" x="20" y="80" width="335" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="BjS-7i-vLa"/>
+                                </constraints>
+                                <state key="normal" title="录制(Record File)"/>
+                                <connections>
+                                    <action selector="recordAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rxN-F4-kWT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v6D-yh-yVo">
+                                <rect key="frame" x="20" y="145" width="335" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="语音识别(Voice Recognition)"/>
+                                <connections>
+                                    <action selector="speechRecognitionAtion:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fr4-jl-Mrx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oLu-Nk-wU2">
+                                <rect key="frame" x="20" y="210" width="335" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="文本翻译(Text Translate)"/>
+                                <connections>
+                                    <action selector="textTrantionAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MXN-LP-xue"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D8h-qc-XcB">
+                                <rect key="frame" x="20" y="275" width="335" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="语音合成(TTS)"/>
+                                <connections>
+                                    <action selector="speechSynthesisAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wbN-S3-9YL"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="What a beautiful day! Google voice recognition requires APIKey registration. Enjoy" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="W4v-w1-ks9">
+                                <rect key="frame" x="20" y="433" width="335" height="200"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="4K7-zc-L4i"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="W4v-w1-ks9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="2vK-u3-1xu"/>
+                            <constraint firstItem="D8h-qc-XcB" firstAttribute="centerX" secondItem="oLu-Nk-wU2" secondAttribute="centerX" id="4ei-P2-46q"/>
+                            <constraint firstItem="v6D-yh-yVo" firstAttribute="centerX" secondItem="qdk-r3-oJe" secondAttribute="centerX" id="AGB-bb-QX4"/>
+                            <constraint firstItem="v6D-yh-yVo" firstAttribute="width" secondItem="qdk-r3-oJe" secondAttribute="width" id="Av2-Gc-1Gz"/>
+                            <constraint firstItem="oLu-Nk-wU2" firstAttribute="centerX" secondItem="v6D-yh-yVo" secondAttribute="centerX" id="BfE-by-1mQ"/>
+                            <constraint firstItem="qdk-r3-oJe" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="CaZ-0t-Uoq"/>
+                            <constraint firstItem="v6D-yh-yVo" firstAttribute="top" secondItem="qdk-r3-oJe" secondAttribute="bottom" constant="15" id="R5v-5l-7gN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="W4v-w1-ks9" secondAttribute="trailing" constant="20" id="RdZ-S9-87g"/>
+                            <constraint firstItem="D8h-qc-XcB" firstAttribute="top" secondItem="oLu-Nk-wU2" secondAttribute="bottom" constant="15" id="SsJ-cF-vxP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qdk-r3-oJe" secondAttribute="trailing" constant="20" id="TV1-Au-KYd"/>
+                            <constraint firstItem="oLu-Nk-wU2" firstAttribute="width" secondItem="v6D-yh-yVo" secondAttribute="width" id="UPd-xo-eK3"/>
+                            <constraint firstItem="v6D-yh-yVo" firstAttribute="height" secondItem="qdk-r3-oJe" secondAttribute="height" id="XZy-FQ-FJ9"/>
+                            <constraint firstItem="oLu-Nk-wU2" firstAttribute="top" secondItem="v6D-yh-yVo" secondAttribute="bottom" constant="15" id="iHK-PX-uVc"/>
+                            <constraint firstItem="oLu-Nk-wU2" firstAttribute="height" secondItem="v6D-yh-yVo" secondAttribute="height" id="jxr-Oi-JgB"/>
+                            <constraint firstItem="D8h-qc-XcB" firstAttribute="width" secondItem="oLu-Nk-wU2" secondAttribute="width" id="u4s-mB-w6g"/>
+                            <constraint firstItem="D8h-qc-XcB" firstAttribute="height" secondItem="oLu-Nk-wU2" secondAttribute="height" id="uWG-vT-mcf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="W4v-w1-ks9" secondAttribute="bottom" constant="34" id="ySI-Q9-djJ"/>
+                            <constraint firstItem="qdk-r3-oJe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="zla-ns-KIK"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="textView" destination="W4v-w1-ks9" id="oxX-RZ-Oqq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="132.68365817091455"/>
+        </scene>
+    </scenes>
+</document>

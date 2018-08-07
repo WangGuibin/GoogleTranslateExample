@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C5F7233CED742FFC2B087116 /* libPods-WGBGoogleTranslateDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3067255D3DB81739E21F378C /* libPods-WGBGoogleTranslateDemo.a */; };
+		CA70F7982119DC1900AA7D01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA70F7972119DC1900AA7D01 /* AppDelegate.m */; };
+		CA70F79B2119DC1900AA7D01 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA70F79A2119DC1900AA7D01 /* ViewController.m */; };
+		CA70F79E2119DC1900AA7D01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA70F79C2119DC1900AA7D01 /* Main.storyboard */; };
+		CA70F7A02119DC1A00AA7D01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA70F79F2119DC1A00AA7D01 /* Assets.xcassets */; };
+		CA70F7A32119DC1A00AA7D01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA70F7A12119DC1A00AA7D01 /* LaunchScreen.storyboard */; };
+		CA70F7A62119DC1A00AA7D01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA70F7A52119DC1A00AA7D01 /* main.m */; };
+		CA70F7AF2119DFA300AA7D01 /* WGBGoogleSpeechManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CA70F7AD2119DFA300AA7D01 /* WGBGoogleSpeechManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3067255D3DB81739E21F378C /* libPods-WGBGoogleTranslateDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WGBGoogleTranslateDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84F8CB2F5C67CB00BCAB65D9 /* Pods-WGBGoogleTranslateDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WGBGoogleTranslateDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-WGBGoogleTranslateDemo/Pods-WGBGoogleTranslateDemo.release.xcconfig"; sourceTree = "<group>"; };
+		9D8240B939349C337B395FD0 /* Pods-WGBGoogleTranslateDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WGBGoogleTranslateDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WGBGoogleTranslateDemo/Pods-WGBGoogleTranslateDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		CA70F7932119DC1900AA7D01 /* WGBGoogleTranslateDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WGBGoogleTranslateDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA70F7962119DC1900AA7D01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA70F7972119DC1900AA7D01 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CA70F7992119DC1900AA7D01 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CA70F79A2119DC1900AA7D01 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CA70F79D2119DC1900AA7D01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA70F79F2119DC1A00AA7D01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA70F7A22119DC1A00AA7D01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA70F7A42119DC1A00AA7D01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA70F7A52119DC1A00AA7D01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA70F7AD2119DFA300AA7D01 /* WGBGoogleSpeechManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGBGoogleSpeechManager.m; sourceTree = "<group>"; };
+		CA70F7AE2119DFA300AA7D01 /* WGBGoogleSpeechManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGBGoogleSpeechManager.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA70F7902119DC1900AA7D01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5F7233CED742FFC2B087116 /* libPods-WGBGoogleTranslateDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49B1452DE47D8D0D5EA9DA8C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D8240B939349C337B395FD0 /* Pods-WGBGoogleTranslateDemo.debug.xcconfig */,
+				84F8CB2F5C67CB00BCAB65D9 /* Pods-WGBGoogleTranslateDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CA70F78A2119DC1900AA7D01 = {
+			isa = PBXGroup;
+			children = (
+				CA70F7952119DC1900AA7D01 /* WGBGoogleTranslateDemo */,
+				CA70F7942119DC1900AA7D01 /* Products */,
+				49B1452DE47D8D0D5EA9DA8C /* Pods */,
+				F2A1138F7AE366AB863206F5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CA70F7942119DC1900AA7D01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA70F7932119DC1900AA7D01 /* WGBGoogleTranslateDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA70F7952119DC1900AA7D01 /* WGBGoogleTranslateDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CA70F7AC2119DFA300AA7D01 /* GoogleSpeechManager */,
+				CA70F7962119DC1900AA7D01 /* AppDelegate.h */,
+				CA70F7972119DC1900AA7D01 /* AppDelegate.m */,
+				CA70F7992119DC1900AA7D01 /* ViewController.h */,
+				CA70F79A2119DC1900AA7D01 /* ViewController.m */,
+				CA70F79C2119DC1900AA7D01 /* Main.storyboard */,
+				CA70F79F2119DC1A00AA7D01 /* Assets.xcassets */,
+				CA70F7A12119DC1A00AA7D01 /* LaunchScreen.storyboard */,
+				CA70F7A42119DC1A00AA7D01 /* Info.plist */,
+				CA70F7A52119DC1A00AA7D01 /* main.m */,
+			);
+			path = WGBGoogleTranslateDemo;
+			sourceTree = "<group>";
+		};
+		CA70F7AC2119DFA300AA7D01 /* GoogleSpeechManager */ = {
+			isa = PBXGroup;
+			children = (
+				CA70F7AE2119DFA300AA7D01 /* WGBGoogleSpeechManager.h */,
+				CA70F7AD2119DFA300AA7D01 /* WGBGoogleSpeechManager.m */,
+			);
+			path = GoogleSpeechManager;
+			sourceTree = "<group>";
+		};
+		F2A1138F7AE366AB863206F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3067255D3DB81739E21F378C /* libPods-WGBGoogleTranslateDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA70F7922119DC1900AA7D01 /* WGBGoogleTranslateDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA70F7A92119DC1A00AA7D01 /* Build configuration list for PBXNativeTarget "WGBGoogleTranslateDemo" */;
+			buildPhases = (
+				1F9999EC75F3F827AE0701C0 /* [CP] Check Pods Manifest.lock */,
+				CA70F78F2119DC1900AA7D01 /* Sources */,
+				CA70F7902119DC1900AA7D01 /* Frameworks */,
+				CA70F7912119DC1900AA7D01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WGBGoogleTranslateDemo;
+			productName = WGBGoogleTranslateDemo;
+			productReference = CA70F7932119DC1900AA7D01 /* WGBGoogleTranslateDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA70F78B2119DC1900AA7D01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "王贵彬";
+				TargetAttributes = {
+					CA70F7922119DC1900AA7D01 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = CA70F78E2119DC1900AA7D01 /* Build configuration list for PBXProject "WGBGoogleTranslateDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA70F78A2119DC1900AA7D01;
+			productRefGroup = CA70F7942119DC1900AA7D01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA70F7922119DC1900AA7D01 /* WGBGoogleTranslateDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA70F7912119DC1900AA7D01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA70F7A32119DC1A00AA7D01 /* LaunchScreen.storyboard in Resources */,
+				CA70F7A02119DC1A00AA7D01 /* Assets.xcassets in Resources */,
+				CA70F79E2119DC1900AA7D01 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F9999EC75F3F827AE0701C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WGBGoogleTranslateDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA70F78F2119DC1900AA7D01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA70F79B2119DC1900AA7D01 /* ViewController.m in Sources */,
+				CA70F7A62119DC1A00AA7D01 /* main.m in Sources */,
+				CA70F7AF2119DFA300AA7D01 /* WGBGoogleSpeechManager.m in Sources */,
+				CA70F7982119DC1900AA7D01 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CA70F79C2119DC1900AA7D01 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA70F79D2119DC1900AA7D01 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA70F7A12119DC1A00AA7D01 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA70F7A22119DC1A00AA7D01 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA70F7A72119DC1A00AA7D01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CA70F7A82119DC1A00AA7D01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA70F7AA2119DC1A00AA7D01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D8240B939349C337B395FD0 /* Pods-WGBGoogleTranslateDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E27WNKVHV9;
+				INFOPLIST_FILE = WGBGoogleTranslateDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChangeWorld.CoderWGB.WGBGoogleTranslateDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA70F7AB2119DC1A00AA7D01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84F8CB2F5C67CB00BCAB65D9 /* Pods-WGBGoogleTranslateDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E27WNKVHV9;
+				INFOPLIST_FILE = WGBGoogleTranslateDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChangeWorld.CoderWGB.WGBGoogleTranslateDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA70F78E2119DC1900AA7D01 /* Build configuration list for PBXProject "WGBGoogleTranslateDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA70F7A72119DC1A00AA7D01 /* Debug */,
+				CA70F7A82119DC1A00AA7D01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA70F7A92119DC1A00AA7D01 /* Build configuration list for PBXNativeTarget "WGBGoogleTranslateDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA70F7AA2119DC1A00AA7D01 /* Debug */,
+				CA70F7AB2119DC1A00AA7D01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA70F78B2119DC1900AA7D01 /* Project object */;
+}
